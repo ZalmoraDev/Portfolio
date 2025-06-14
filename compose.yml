@@ -1,0 +1,35 @@
+name: portfolio
+
+# TODO: NOT FINAL, DON'T USE YET
+
+services:
+  nginx:
+    container_name: portfolio-nginx
+    image: nginx:1.26
+    restart: on-failure
+    ports:
+      - "20100:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - .:/portfolio
+    depends_on:
+      - golang
+      - vite-react
+
+  golang:
+    container_name: portfolio-golang
+    build:
+      context: .
+      dockerfile: golang.dockerfile
+    restart: on-failure
+    volumes:
+      - ./backend:/app/backend
+
+  vite-react:
+    container_name: portfolio-vite
+    build:
+      context: ./frontend
+      dockerfile: vite.dockerfile
+    restart: on-failure
+    volumes:
+      - ./frontend:/app

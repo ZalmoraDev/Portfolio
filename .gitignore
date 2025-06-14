@@ -1,0 +1,14 @@
+.DS_Store
+
+.idea/
+.vscode/
+.env
+.env.dev
+.env.production
+
+# Backend, Golang
+
+
+# Frontend, Vite and React
+frontend/.react-router/
+frontend/node_modules/
