@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* ---------- Custom Tailwind CSS ---------- */
+@theme {
+    --color-cg-50: #f2f8f9;
+    --color-cg-100: #dfeeee;
+    --color-cg-200: #c2dedf;
+    --color-cg-300: #98c5c8;
+    --color-cg-400: #67a4a9;
+    --color-cg-500: #4c898e;
+    --color-cg-600: #3e6b72;
+    --color-cg-700: #3a5d64;
+    --color-cg-800: #354f55;
+    --color-cg-900: #304349;
+    --color-cg-950: #1c2b30;
+}
+
+html,
+body {
+    @apply bg-white dark:bg-gray-950;
+
+    @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+    }
+}
