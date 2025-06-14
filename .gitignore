@@ -1,9 +1,10 @@
 .DS_Store
 
+# General
 .idea/
 .vscode/
 .env
-.env.dev
+.env.development
 .env.production
 
 # Backend, Golang

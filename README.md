@@ -1,4 +1,8 @@
 # Portfolio website
+> **⚠️Warning:**
+> This project is a WIP
+
+![](https://media.tenor.com/ZREp8lpZA60AAAAM/dance.gif)
 
 ## Tech Stack
 - [React](https://reactjs.org/) - frontend
