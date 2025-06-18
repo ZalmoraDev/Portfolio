@@ -67,15 +67,15 @@
             <div style="background: #006045;" class="rounded-lg overflow-hidden shadow-xl relative">
                 <!----------------------------------------------------------------------------------------------------->
                 <!-- Project Thumbnail -->
-                <div style="background: #004f3b;" class="w-full h-48  flex items-center justify-center">
+                <div style="background: #004f3b;" class="w-full h-48 flex items-center justify-center relative">
                     <img src="/springyield.svg" alt="Springyield" class="w-24 h-24"/>
                     <!-- Labels -->
                     <!-- TL: Online Status / Source availability -->
                     <div class="absolute top-2 left-2 font-bold bg-black text-xs rounded-2xl z-10 overflow-hidden">
-                    <span class="bg-opacity-20 bg-red-400 text-red-400 px-2 py-1 flex items-center">
-                        <div class="w-2.5 h-2.5 rounded-full bg-red-400 mr-1.5 relative">
+                    <span class="bg-opacity-20 bg-gray-400 text-gray-400 px-2 py-1 flex items-center">
+                        <div class="w-2.5 h-2.5 rounded-full bg-gray-400 mr-1.5 relative">
                             <!-- Ping animation -->
-                            <span class="absolute top-0 left-0 w-full h-full rounded-full bg-red-400 opacity-100"></span>
+                            <span class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-400 opacity-100"></span>
                         </div>
                         Offline
                     </span>
@@ -85,15 +85,41 @@
                         <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
                     </div>
                     <!-- BL: Technologies -->
-                    <div class="absolute bottom-2 left-2 font-bold bg-black text-xs py-1 rounded-2xl z-10 overflow-hidden">
-                        <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
+                    <div class="absolute flex gap-1 bottom-2 left-2 rounded-2xl z-10 overflow-hidden">
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"  class="px-2 py-1">Vue</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"  class="px-2 py-1">JS</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"  class="px-2 py-1">Tailwind</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">Springboot</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">Java</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #00bcff; background: rgb(0, 188, 255, 0.2);"  class="px-2 py-1">REST</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-blue-400 text-blue-400 px-2 py-1">VPS</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-pink-400 text-pink-400 px-2 py-1">Docker</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-purple-400 text-purple-400 px-2 py-1">JWT</span>
+                        </div>
                     </div>
                 </div>
                 <!----------------------------------------------------------------------------------------------------->
                 <!-- Project Details -->
                 <div class="p-6">
                     <h3 class=" text-xl font-semibold mb-2">Springyield</h3>
-                    <p style="color: #a4f4cf" class="mb-4">Online banking application</p>
+                    <p style="color: #a4f4cf" class="mb-4">Online banking application with transaction processing, balance tracking, user and account management.</p>
                 </div>
             </div>
 
@@ -101,10 +127,14 @@
             <!-- Project Card 2 -->
             <a href="https://tesserarius.stefvisser.com"
                style="background: #262626;" class="rounded-lg overflow-hidden shadow-xl relative">
-                <!----------------------------------------------------------------------------------------------------->
-                <!-- Labels -->
-                <!-- TL: Online Status / Source availability -->
-                <div class="absolute top-2 left-2 font-bold bg-black text-xs rounded-2xl z-10 overflow-hidden">
+                <!-- Project Thumbnail -->
+                <div style="background: #171717"
+                     class="w-full h-48 bg-gray-700 flex items-center justify-center relative cursor-pointer">
+                    <img src="/tesserarius.svg" alt="Tesserarius" class="w-24 h-24"/>
+                    <!----------------------------------------------------------------------------------------------------->
+                    <!-- Labels -->
+                    <!-- TL: Online Status / Source availability -->
+                    <div class="absolute top-2 left-2 font-bold bg-black text-xs rounded-2xl z-10 overflow-hidden">
                     <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1 flex items-center">
                         <div class="w-2.5 h-2.5 rounded-full bg-yellow-400 mr-1.5 relative">
                             <!-- Ping animation -->
@@ -112,21 +142,38 @@
                         </div>
                         Online (Restricted)
                     </span>
-                </div>
-                <!-- TR: Version  -->
-                <div class="absolute top-2 right-2 font-bold bg-black text-xs py-1 rounded-2xl z-10 overflow-hidden">
-                    <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
-                </div>
-                <!----------------------------------------------------------------------------------------------------->
-                <!-- Project Thumbnail -->
-                <div style="background: #171717"
-                     class="w-full h-48 bg-gray-700 flex items-center justify-center cursor-pointer">
-                    <img src="/tesserarius.svg" alt="Tesserarius" class="w-24 h-24"/>
+                    </div>
+                    <!-- TR: Version  -->
+                    <div class="absolute top-2 right-2 font-bold bg-black text-xs py-1 rounded-2xl z-10 overflow-hidden">
+                        <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
+                    </div>
+                    <!-- BL: Technologies -->
+                    <div class="absolute flex gap-1 bottom-2 left-2 rounded-2xl z-10 overflow-hidden">
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"  class="px-2 py-1">JS</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"  class="px-2 py-1">Tailwind</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">PHP</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span style="color: #00bcff; background: rgb(0, 188, 255, 0.2);"  class="px-2 py-1">MySQL</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-blue-400 text-blue-400 px-2 py-1">VPS</span>
+                        </div>
+                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                            <span class="bg-opacity-20 bg-pink-400 text-pink-400 px-2 py-1">Docker</span>
+                        </div>
+                    </div>
+                    <!----------------------------------------------------------------------------------------------------->
                 </div>
                 <!-- Project Details -->
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Tesserarius</h3>
-                    <p class="text-gray-400 mb-4">Online collaborative task manager with kanban tickets.
+                    <p class="text-gray-400 mb-4">Online collaborative task manager with Kanban tickets,
                         Custom fields, filtering & sorting.
                         Inspired by Trello & Notion.</p>
                 </div>
@@ -142,15 +189,14 @@
         <h2 class="text-3xl font-semibold mb-4">✨Skills & Tools</h2>
         <div class="space-y-4">
             <p class="text-gray-400">
-                Penguin</p>
+                WIP</p>
         </div>
     </div>
 </section>
 
 <!-- Footer -->
 <footer class="text-center text-gray-500 py-6 text-sm bg-gray-900">
-    &copy; 2025 Stef Visser — All rights reserved | This website is very much a <span
-        class="text-indigo-400">Work in Progress</span>.
+    &copy; 2025 Stef Visser — All rights reserved | This website is a Work in Progress.
 </footer>
 
 </body>
