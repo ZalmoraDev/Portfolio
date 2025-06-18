@@ -2,14 +2,17 @@ package main
 
 import (
 	"fmt"
+	"github.com/joho/godotenv"
+	"log"
+	"os"
 )
 
 func main() {
-
-	s := "gopher"
-	fmt.Printf("Hello and welcome, %s!\n", s)
-
-	for i := 1; i <= 5; i++ {
-		fmt.Println("i =", 100/i)
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
 	}
+
+	fmt.Printf("Starting Golang backend using port, %s\n", os.Getenv("backendPort"))
+
 }
