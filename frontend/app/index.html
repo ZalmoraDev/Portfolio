@@ -1,1 +1,133 @@
-awdawd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- TODO: Temporary import, should use Vite Tailwind -->
+    <meta charset="UTF-8">
+    <title>Home | Stef Visser</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        @import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+<!-- TODO: VERY MUCH WIP, THIS IS A PLACEHOLDER -->
+
+<!-- Hero section -->
+<section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <div class="relative mb-8 w-40 h-40 overflow-hidden rounded-full border-4 bg-gray-300 border-gray-500">
+        <img src="/1500x1500t.png" alt="SV" class="w-full h-full object-cover"/>
+    </div>
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I'm Stef👋</h1>
+    <p class="text-xl md:text-2xl text-gray-400 mb-6">Dutch informatics student @
+        <a class="underline"
+           href="https://www.inholland.nl/opleidingen/informatica-voltijd/"
+           style="color: #e2027f">Inholland</a>
+    </p>
+    <a href="https://github.com/zalmoradev">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
+             alt="GitHub" class="w-16 h-16 hover:opacity-75 transition"/>
+    </a>
+    <a href="https://www.linkedin.com/in/stefvisser/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
+             alt="LinkedIn" class="w-16 h-16 hover:opacity-75 transition"/>
+    </a>
+</section>
+
+<!-- About Section -->
+<section class="py-20 px-6 bg-gray-800">
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-4">??About Me</h2>
+        <div class="space-y-4">
+            <p class="text-gray-400">
+                Passionate about Linux, Fullstack-development & Low-level programming. Experience in software and game
+                development.</p>
+            <p class="text-gray-400">
+                Previous studies in Software- and Gamedevelopment, where I've developed skills in
+                programming, web development. Experience in creating VR
+                simulations and 3D models using Unity 3D and Blender.
+
+                Proficient in various programming languages and tools, I enjoy tackling new challenges and continuously
+                learning about emerging technologies.
+            </p>
+            <p class="text-gray-400">
+
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- TODO: SHOULD BE MADE INTO REACT COMPONENTS (WIP!) -->
+<!-- Projects Section -->
+<section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-8">??Projects (WIP)</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Project Card 1 -->
+            <div style="background: #006045;" class="rounded-lg overflow-hidden shadow-xl relative">
+                <!-- Status Labels -->
+                <div class="absolute top-2 left-2 font-bold bg-opacity-20 bg-neutral-400 text-neutral-400 text-xs px-2 py-1 rounded z-10">
+                    Offline
+                </div>
+                <div class="absolute top-2 right-2 font-bold bg-opacity-20 bg-neutral-400 text-neutral-400 text-xs px-2 py-1 rounded z-10">
+                    WIP
+                </div>
+                <!-- Image Placeholder -->
+                <div style="background: #004f3b;" class="w-full h-48  flex items-center justify-center cursor-pointer">
+                    <img src="/springyield.svg" alt="Springyield" class="w-24 h-24"/>
+                </div>
+                <div class="p-6">
+                    <h3 class=" text-xl font-semibold mb-2">Springyield</h3>
+                    <p class="text-gray-400 mb-4">Online banking application</p>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <a href="https://tesserarius.stefvisser.com"
+               style="background: #262626;" class="rounded-lg overflow-hidden shadow-xl relative">
+                <!-- Status Labels -->
+                <div class="absolute top-2 left-2 font-bold bg-black text-xs rounded-2xl z-10 overflow-hidden">
+                    <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1 flex items-center">
+                        <div class="w-2.5 h-2.5 rounded-full bg-yellow-400 mr-1.5"></div>
+                        Online (Inaccessible)
+                    </span>
+                </div>
+                <div class="absolute top-2 right-2 font-bold bg-black text-xs py-1 rounded-2xl z-10 overflow-hidden">
+                    <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
+                </div>
+                <!-- Image Placeholder -->
+                <div style="background: #171717"
+                     class="w-full h-48 bg-gray-700 flex items-center justify-center cursor-pointer">
+                    <img src="/tesserarius.svg" alt="Tesserarius" class="w-24 h-24"/>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Tesserarius</h3>
+                    <p class="text-gray-400 mb-4">Online collaborative task manager with kanban tickets.
+                        Custom fields, filtering & sorting.
+                        Inspired by Trello & Notion.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section class="py-20 px-6 bg-gray-800">
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-4">✨Skills & Tools</h2>
+        <div class="space-y-4">
+            <p class="text-gray-400">
+                Penguin</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-gray-500 py-6 text-sm bg-gray-900">
+    &copy; 2025 Stef — All rights reserved | This website is very much a <span
+        class="text-indigo-400">Work in Progress</span>.
+</footer>
+
+</body>
+</html>
