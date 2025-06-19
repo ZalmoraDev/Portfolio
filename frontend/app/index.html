@@ -24,20 +24,22 @@
            href="https://www.inholland.nl/opleidingen/informatica-voltijd/"
            style="color: #e2027f">Inholland</a>
     </p>
-    <a href="https://github.com/zalmoradev">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png"
-             alt="GitHub" class="w-16 h-16 hover:opacity-75 transition"/>
-    </a>
-    <a href="https://www.linkedin.com/in/stefvisser/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
-             alt="LinkedIn" class="w-16 h-16 hover:opacity-75 transition"/>
-    </a>
+    <div class="flex justify-center space-x-4">
+        <a href="https://www.linkedin.com/in/stefvisser/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
+                 alt="LinkedIn" class="w-16 h-16 hover:opacity-75 transition"/>
+        </a>
+        <a class="rounded-2xl overflow-hidden" href="https://github.com/zalmoradev">
+            <img src="https://camo.githubusercontent.com/79256dafb2a4640d2ef03249a1afc716cc5de12f2082b0b82c692b0163f6a955/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"
+                 alt="GitHub" class="w-16 h-16 hover:opacity-75 transition"/>
+        </a>
+    </div>
 </section>
 
 <!-- About Section -->
 <section class="py-20 px-6 bg-gray-800">
     <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-semibold mb-4">??About Me</h2>
+        <h2 class="text-3xl font-semibold mb-4">🤔About Me (WIP)</h2>
         <div class="space-y-4">
             <p class="text-gray-400">
                 Passionate about Linux, Fullstack-development & Low-level programming. Experience in software and game
@@ -61,11 +63,11 @@
 <!-- Projects Section -->
 <section class="py-20 px-6">
     <div class="max-w-6xl mx-auto text-center">
-        <h2 class="text-3xl font-semibold mb-8">??Projects (WIP)</h2>
+        <h2 class="text-3xl font-semibold mb-8">📂Projects (WIP)</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Project Card 1 -->
             <div style="background: #006045;"
-                 class="rounded-lg overflow-hidden shadow-xl relative transform transition-transform duration-150 hover:scale-105">
+                 class="rounded-lg overflow-hidden shadow-xl relative transform transition-transform duration-300 hover:scale-105 group">
                 <!----------------------------------------------------------------------------------------------------->
                 <!-- Project Thumbnail -->
                 <div style="background: #004f3b;" class="w-full h-48 flex items-center justify-center relative">
@@ -86,37 +88,40 @@
                         <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
                     </div>
                     <!-- BL: Technologies -->
-                    <div class="absolute flex gap-1 bottom-2 left-2 rounded-2xl z-10 overflow-hidden">
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
-                                  class="px-2 py-1">Vue</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
-                                  class="px-2 py-1">JS</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
-                                  class="px-2 py-1">Tailwind</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">Springboot</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">Java</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #00bcff; background: rgb(0, 188, 255, 0.2);"
-                                  class="px-2 py-1">REST</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-blue-400 text-blue-400 px-2 py-1">VPS</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-pink-400 text-pink-400 px-2 py-1">Docker</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-purple-400 text-purple-400 px-2 py-1">JWT</span>
+                    <div class="absolute bottom-2 left-2 rounded-2xl z-10 overflow opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                         style="scrollbar-width: none; -ms-overflow-style: none;">
+                        <div class="flex gap-1 min-w-max">
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
+                                      class="px-2 py-1">Vue</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
+                                      class="px-2 py-1">JS</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
+                                      class="px-2 py-1">Tailwind</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">Springboot</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">Java</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #00bcff; background: rgb(0, 188, 255, 0.2);"
+                                      class="px-2 py-1">REST</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-blue-400 text-blue-400 px-2 py-1">VPS</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-pink-400 text-pink-400 px-2 py-1">Docker</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-purple-400 text-purple-400 px-2 py-1">JWT</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,10 +138,10 @@
             <!-- Project Card 2 -->
             <a href="https://tesserarius.stefvisser.com"
                style="background: #262626;"
-               class="rounded-lg overflow-hidden shadow-xl relative transform transition-transform duration-150 hover:scale-105">
+               class="rounded-lg overflow-hidden shadow-xl relative transform transition-transform duration-150 hover:scale-105 cursor-pointer group">
                 <!-- Project Thumbnail -->
                 <div style="background: #171717"
-                     class="w-full h-48 bg-gray-700 flex items-center justify-center relative cursor-pointer">
+                     class="w-full h-48 bg-gray-700 flex items-center justify-center relative">
                     <img src="/tesserarius.svg" alt="Tesserarius" class="w-24 h-24"/>
                     <!----------------------------------------------------------------------------------------------------->
                     <!-- Labels -->
@@ -155,27 +160,29 @@
                         <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">WIP</span>
                     </div>
                     <!-- BL: Technologies -->
-                    <div class="absolute flex gap-1 bottom-2 left-2 rounded-2xl z-10 overflow-hidden">
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
-                                  class="px-2 py-1">JS</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
-                                  class="px-2 py-1">Tailwind</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">PHP</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span style="color: #00bcff; background: rgb(0, 188, 255, 0.2);"
-                                  class="px-2 py-1">MySQL</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-blue-400 text-blue-400 px-2 py-1">VPS</span>
-                        </div>
-                        <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
-                            <span class="bg-opacity-20 bg-pink-400 text-pink-400 px-2 py-1">Docker</span>
+                    <div class="absolute bottom-2 left-2 rounded-2xl z-10 overflow opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="flex gap-1 min-w-max">
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
+                                      class="px-2 py-1">JS</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #ff8904; background: rgba(255, 137, 4, 0.2);"
+                                      class="px-2 py-1">Tailwind</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1">PHP</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span style="color: #00bcff; background: rgb(0, 188, 255, 0.2);"
+                                      class="px-2 py-1">MySQL</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-blue-400 text-blue-400 px-2 py-1">VPS</span>
+                            </div>
+                            <div class="font-bold bg-black text-xs py-1 rounded-2xl overflow-hidden">
+                                <span class="bg-opacity-20 bg-pink-400 text-pink-400 px-2 py-1">Docker</span>
+                            </div>
                         </div>
                     </div>
                     <!----------------------------------------------------------------------------------------------------->
@@ -196,7 +203,7 @@
 <!-- About Section -->
 <section class="py-20 px-6 bg-gray-800">
     <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl font-semibold mb-4">✨Skills & Tools</h2>
+        <h2 class="text-3xl font-semibold mb-4">✨Skills & Tools (WIP)</h2>
         <div class="space-y-4">
             <p class="text-gray-400">
                 WIP</p>
@@ -211,3 +218,5 @@
 
 </body>
 </html>
+
+
