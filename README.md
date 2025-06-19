@@ -1,6 +1,6 @@
 # Portfolio website
 > **⚠️Warning:**
-> This project is a WIP
+> This project is a WIP, viewer discretion is advised 
 
 ![](https://media.tenor.com/ZREp8lpZA60AAAAM/dance.gif)
 
