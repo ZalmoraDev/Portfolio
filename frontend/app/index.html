@@ -20,14 +20,14 @@
          style="filter: blur(4px) brightness(0.6);"/>
 
     <!-- Content on top of the blurred background -->
-        <div class="flex flex-col items-center z-10 p-10 backdrop-filter backdrop-blur-md bg-gray-800 bg-opacity-40 rounded-3xl border border-gray-600 border-opacity-20 shadow-2xl">
-            <div class="relative mb-8 w-40 h-40 overflow-hidden rounded-full border-4 bg-gray-300 border-gray-500">
-                <img src="/public/1500x1500t.png" alt="SV" class="w-full h-full object-cover"/>
-            </div>
-            <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I'm Stef👋</h1>
-            <p class="text-xl md:text-2xl text-gray-400 mb-6">Dutch informatics student @ Inholland
-            </p>
+    <div class="flex flex-col items-center z-10 p-10 backdrop-filter backdrop-blur-md bg-gray-800 bg-opacity-40 rounded-3xl border border-gray-600 border-opacity-20 shadow-2xl">
+        <div class="relative mb-8 w-40 h-40 overflow-hidden rounded-full border-4 bg-gray-300 border-gray-500">
+            <img src="/public/1500x1500t.png" alt="SV" class="w-full h-full object-cover"/>
         </div>
+        <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I'm Stef👋</h1>
+        <p class="text-xl md:text-2xl text-gray-400 mb-6">Dutch informatics student @ Inholland
+        </p>
+    </div>
 </section>
 
 <!-- About Section -->
@@ -58,21 +58,24 @@
         <h2 class="text-3xl font-semibold mb-8">📂Projects (WIP)</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Project Card 1 -->
-            <div style="background: #354f55;"
-                 class="rounded-lg overflow-hidden shadow-xl relative transform transition-transform duration-300 hover:scale-105 group">
+            <a href="https://springyield.stefvisser.com"
+               style="background: #354f55;"
+               class="rounded-lg overflow-hidden shadow-xl relative transform transition-transform duration-300 hover:scale-105 group">
                 <!----------------------------------------------------------------------------------------------------->
                 <!-- Project Thumbnail -->
-                <div style="background: #304349;" class="w-full h-48 flex items-center justify-center relative">
+                <div style="background: #304349;"
+                     class="w-full h-48 flex items-center justify-center relative cursor-pointer">
                     <img src="public//springyield.svg" alt="Springyield" class="w-24 h-24"/>
                     <!-- Labels -->
                     <!-- TL: Online Status / Source availability -->
+                    <!-- TL: Online Status / Source availability -->
                     <div class="absolute top-2 left-2 font-bold bg-black text-xs rounded-2xl z-10 overflow-hidden">
-                    <span class="bg-opacity-20 bg-gray-400 text-gray-400 px-2 py-1 flex items-center">
-                        <div class="w-2.5 h-2.5 rounded-full bg-gray-400 mr-1.5 relative">
+                    <span class="bg-opacity-20 bg-yellow-400 text-yellow-400 px-2 py-1 flex items-center">
+                        <div class="w-2.5 h-2.5 rounded-full bg-yellow-400 mr-1.5 relative">
                             <!-- Ping animation -->
-                            <span class="absolute top-0 left-0 w-full h-full rounded-full bg-gray-400 opacity-100"></span>
+                            <span class="absolute top-0 left-0 w-full h-full rounded-full bg-yellow-400 opacity-100 animate-ping"></span>
                         </div>
-                        Offline
+                        Online (Restricted)
                     </span>
                     </div>
                     <!-- TR: Version  -->
@@ -124,7 +127,7 @@
                     <p style="color: #c2dedf" class="mb-4">Online banking application with transaction processing,
                         balance tracking, user and account management.</p>
                 </div>
-            </div>
+            </a>
 
 
             <!-- Project Card 2 -->
@@ -206,10 +209,10 @@
                     <img src="https://camo.githubusercontent.com/79256dafb2a4640d2ef03249a1afc716cc5de12f2082b0b82c692b0163f6a955/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"
                          alt="GitHub" class="rounded-lg w-16 h-16 hover:opacity-75 transition"/>
                 </a>
-<!--                <a href="https://discord.com/users/zalmora_" target="_blank" rel="noopener noreferrer">-->
-<!--                    <img src="https://support.discord.com/hc/user_images/PRywUXcqg0v5DD6s7C3LyQ.jpeg"-->
-<!--                         alt="Discord" class="rounded-lg w-16 h-16 hover:opacity-75 transition"/>-->
-<!--                </a>-->
+                <!--                <a href="https://discord.com/users/zalmora_" target="_blank" rel="noopener noreferrer">-->
+                <!--                    <img src="https://support.discord.com/hc/user_images/PRywUXcqg0v5DD6s7C3LyQ.jpeg"-->
+                <!--                         alt="Discord" class="rounded-lg w-16 h-16 hover:opacity-75 transition"/>-->
+                <!--                </a>-->
                 <a href="mailto:s.visser6200@gmail.com?subject=Contact%20from%20Portfolio">
                     <img src="/public/mail-square2.webp" alt="Email"
                          class="rounded-lg w-16 h-16 hover:opacity-75 transition"/>
